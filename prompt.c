@@ -1,8 +1,9 @@
 #include "shell.h"
 
-/**                                                                                                     ** prompt - displays the prompt and read the command                                   
-** Return: return the command (cmd), or NULL if empty or nothing typed
-**/                                                                                                    
+/**
+ ** prompt - Affiche le prompt et lit la commande.
+ ** Return: Retourne la commande (cmd) ou NULL si vide ou rien n'est saisi.
+ **/                                                                                                    
 char *prompt(void)                                                                                      
 {                                                                                                       
 char *cmd = NULL;                                                                                   
